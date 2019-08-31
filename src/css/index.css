@@ -1,0 +1,400 @@
+@charset "UTF-8";
+/* start banner */
+#baiji_banner {
+  width: 100%;
+  height: 450px;
+}
+#baiji_banner > div {
+  height: 450px;
+}
+#baiji_banner > div #banner {
+  width: 820px;
+  height: 450px;
+  margin-left: 190px;
+  position: relative;
+  overflow: hidden;
+}
+#baiji_banner > div #banner .lunbo {
+  width: 820px;
+  height: 450px;
+}
+#baiji_banner > div #banner .lunbo > img {
+  width: 820px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+#baiji_banner > div #banner .light {
+  position: absolute;
+  left: 40%;
+  bottom: 19px;
+}
+#baiji_banner > div #banner .light span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #BBBBBB;
+  border-radius: 50%;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#baiji_banner > div #banner .light .banner_active {
+  border: 2px solid #377BEE;
+}
+#baiji_banner > div #banner .imgBtn {
+  width: 820px;
+  position: absolute;
+  left: 0px;
+  top: 43%;
+  z-index: 233;
+  display: none;
+}
+#baiji_banner > div #banner .imgBtn span {
+  display: block;
+  width: 40px;
+  height: 80px;
+  background: url("../img/tp/banbut.png") no-repeat 0px 0px;
+  cursor: pointer;
+}
+#baiji_banner > div #banner .imgBtn .nextBtn {
+  background-position: -40px 0px;
+}
+#baiji_banner > div #banner:hover .imgBtn {
+  display: block;
+}
+
+/* end banner */
+/* start main */
+#baiji_main {
+  width: 100%;
+  background: #F8F8F8;
+  padding-top: 31px;
+}
+#baiji_main .sph_container {
+  height: 441px;
+}
+#baiji_main .sph_container .sph_homehot_pro {
+  float: left;
+  width: 290px;
+  height: 440px;
+  border-top: 1px solid #FFAC13;
+  background: #fff;
+  margin-left: 16px;
+  font-family: 'Microsoft yahei';
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s;
+}
+#baiji_main .sph_container .sph_homehot_pro:hover {
+  box-shadow: 0 0 15px #ccc;
+}
+#baiji_main .sph_container .sph_homehot_pro .subject {
+  height: 80px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 80px;
+  color: #FFAC13;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(1) {
+  margin-left: 0px;
+  border-top: 1px solid #FF7C71;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(1) .subject {
+  color: #FF7C71;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(3) {
+  border-top: 1px solid #83C44E;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(3) .subject {
+  color: #83C44E;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(4) {
+  border-top: 1px solid #ABA3F3;
+}
+#baiji_main .sph_container .sph_homehot_pro:nth-child(4) .subject {
+  color: #ABA3F3;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab {
+  width: 290px;
+  height: 360px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .subtit {
+  height: 25px;
+  line-height: 25px;
+  padding: 0px 14px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .subtit ul {
+  overflow: hidden;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .subtit ul li {
+  height: 25px;
+  line-height: 25px;
+  padding: 0px 8px;
+  float: left;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei {
+  width: 290px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example {
+  width: 262px;
+  height: 315px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner {
+  height: 315px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item {
+  width: 262px;
+  height: 315px;
+  margin-right: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .proname {
+  height: 28px;
+  font-size: 14px;
+  margin-top: 10px;
+  position: relative;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .proname a {
+  color: #333;
+  position: absolute;
+  z-index: 22222;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .propric {
+  color: #ff5c4d;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .proimg {
+  position: relative;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .proimg a {
+  position: absolute;
+  left: 50px;
+  z-index: 222;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel-inner .carousel-item .proimg a img {
+  width: 160px;
+  display: block;
+  margin: auto;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example:nth-child(1) {
+  display: block;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_tab {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 44;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_tab span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #B0B0B0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-left: 16px;
+  cursor: pointer;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_tab span:nth-child(1) {
+  margin-left: 0px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_tab .span_active {
+  background: #FFFFFF;
+  border: 2px solid #FE5F41;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_Btn {
+  width: 262px;
+  height: 315px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 159px;
+  z-index: 33;
+  display: none;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_Btn span {
+  display: block;
+  width: 25px;
+  height: 49px;
+  cursor: pointer;
+  background: url("../img/tp/newicon.png") no-repeat;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_Btn .carousel_Btn_prevBtn {
+  background-position: -223px -124px;
+}
+#baiji_main .sph_container .sph_homehot_pro .Swtab .changehei .example .carousel_Btn .carousel_Btn_nextBtn {
+  background-position: -250px -124px;
+}
+#baiji_main .wr {
+  width: 1210px;
+  height: 697px;
+}
+#baiji_main .wr .sph_forepro_tit.f1 {
+  border-bottom: 2px solid #3795ee;
+}
+#baiji_main .wr .sph_forepro_tit {
+  height: 65px;
+  line-height: 65px;
+  margin-top: 15px;
+}
+#baiji_main .wr .sph_forepro_tit h3 {
+  font-size: 24px;
+  color: #111010;
+  display: block;
+  float: left;
+  font-weight: 400;
+}
+#baiji_main .wr .sph_forepro_tit .rigmore {
+  float: right;
+}
+#baiji_main .wr .sph_forepro_tit .rigmore a {
+  font-size: 16px;
+  padding-right: 35px;
+  position: relative;
+  color: #424242;
+}
+#baiji_main .wr .sph_forepro_tit .rigmore a:hover {
+  text-decoration: none;
+}
+#baiji_main .wr .sph_forepro_tit .clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro {
+  margin-left: -15px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li:first-child {
+  width: 475px;
+  height: 300px;
+  overflow: hidden;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li {
+  width: 230px;
+  height: 300px;
+  margin-left: 15px;
+  background: #fff;
+  float: left;
+  margin-top: 15px;
+  font-size: 13px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p {
+  line-height: 26px;
+  padding: 0 15px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p a {
+  color: #333;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p a img {
+  width: 170px;
+  height: 170px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p.proimg {
+  padding: 32px 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p.proname {
+  height: 26px;
+  overflow: hidden;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p.proname.sph_red {
+  font-size: 16px;
+  color: #ff5c4d;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p.spec {
+  float: left;
+  padding: 0px;
+  text-align: center;
+  margin: 15px 0px 15px 11px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li p.spec img {
+  width: 80px;
+  height: 80px;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li .mingarybar {
+  width: 100%;
+  height: 8px;
+  background: #f8f8f8;
+  clear: both;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li .mingary {
+  min-height: 184px;
+  clear: both;
+  padding: 0px;
+  font-family: '瀹嬩綋';
+  overflow: hidden;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li .mingary > a {
+  width: 115px;
+  height: 45.5px;
+  line-height: 42.8px;
+  text-align: center;
+  border-left: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  float: left;
+  margin-left: -1px;
+  display: block;
+  background: #fff;
+  overflow: hidden;
+  margin-top: -1px;
+  font-size: 14px;
+  font-family: 'Microsoft yahei';
+  color: #3599fd;
+}
+#baiji_main .wr .sph_forepro_con ul.sphpro li .mingary > a:hover {
+  background: #3599fd;
+  color: #fff;
+}
+#baiji_main .sph_longad {
+  height: 120px;
+  margin-top: 20px;
+}
+
+#jqlitab1 li {
+  color: #FF7C71;
+}
+#jqlitab1 .cur {
+  background: #FF7C71;
+  color: #fff;
+}
+
+#jqlitab2 li {
+  color: #FFBF4A;
+}
+#jqlitab2 .cur {
+  background: #FFBF4A;
+  color: #fff;
+}
+
+#jqlitab3 li {
+  color: #83C44E;
+}
+#jqlitab3 .cur {
+  background: #A6D580;
+  color: #fff;
+}
+
+#jqlitab4 li {
+  color: #79B1E9;
+}
+#jqlitab4 .cur {
+  background: #A9CFF2;
+  color: #fff;
+}
+
+/* end main */
+
+/*# sourceMappingURL=index.css.map */

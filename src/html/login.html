@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../css/base_px.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/login.css"> -->
+    <style>
+        /* start login_main */ 
+        #login_main{
+            width: 100%;
+            height: 505px;
+            position: relative;
+        }
+        #login_main img{
+            width: 100%;
+            height: 505px;
+        }
+        #login_main .mem_logbox{
+            position: absolute;
+            top: 235px;
+            left: 1035px;
+        }
+
+        /* end login_main */    
+    </style>
+</head>
+
+<body>
+    <!-- login_head -->
+    <div id="reg_head">
+        <h1><a href="../index.html"><img src="../img/regAndlogin/reglogo.jpg" alt=""></a></h1>
+        <p></p>
+    </div>
+
+    <!-- login_main -->
+    <div id="login_main">
+        <img src="../img/regAndlogin/loginbanner.jpg" alt="">
+
+        <!-- login -->
+        <div class="mem_logbox" style="display: block;">
+            <!-- <div class="posi_rela"><a class="clox"></a></div> -->
+            <div class="mem_logtab">
+                <ul>
+                    <li class="quyu1 cur">账号密码登录<i></i><s></s></li>
+                    <li class="quyu2">短信验证码登录<i></i></li>
+                </ul>
+            </div>
+
+            <div class="mem_logcon">
+                <!-- 账号密码登录 -->
+                <div class="reg-r loginmethod1" style="display: block;">
+                    <!-- user -->
+                    <div class="item">
+                        <div class="item-sj">
+                            <div class="o-regName bc">
+                                <input type="text" id="userName2" class="text bian-01  " autocomplete="off" name="loginusername" placeholder="请输入手机号" >
+                                <div class="mem_tipicon01 mem_tip1" style="display:none;"></div>
+                                <label for="" class="focus error message1" id="errUserName" style="display:none"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- password -->
+                    <div class="item">
+                        <div class="item-sj">
+                            <div class="o-regName bc">
+                                <!-- <div class="logreg151016"> -->
+                                <input type="text" class="text bian-01 text-mm " id="password1" placeholder="请输入密码">
+                                <div class="mem_tipicon01 mem_tip2" style="display:none;"></div>
+                                <label for="" class="focus error message2" id="errMsgPwd" style="display:none"></label>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- forget pwd / free reg -->
+                    <div class="item jzzh">
+                        <div class="flolef fl">
+                            <a href="###" target="_blank" style="color: #555;">忘记密码</a>
+                        </div>
+                        <div class="florig fr">
+                            <label><a href="reg.html" class="moumov" style="color: #62b1ea;">免费注册 > </a></label>
+                        </div>
+                    </div>
+                    <!-- login -->
+                    <div class="item item-xy gotologin">
+                        <div class="item-sj">
+                            <input type="hidden" name="act" value="act_login">
+                            <input type="hidden" name="back_act" value="nohref">
+                            <input type="button" name="submit" value="登 录" class="zc-ljzc" id="ptLogin2">
+                        </div>
+                    </div>
+                </div>
+                <!-- 短信验证码登录 -->
+                <div class="reg-r loginmethod2" style="display:none;">
+                    <!-- telphone -->
+                    <div class="item mem_pholog posi_rela">
+                        <div class="label">手机号码</div>
+                        <input type="text" class="phone" name="log_phone" id="log_phone" autocomplete="off" placeholder="请输入手机号码">
+                        <div class="mem_tipicon01" style="display:none;"></div>
+                        <label for="" class="focus error" id="errMsgName" style="display:none">请输入手机号码！</label>
+                    </div>
+                    <!-- checkphone -->
+                    <div class="item mem_pholog" id="qq_div" style="display: block;">
+                        <div class="codebut" id="LoginCaptcha">点击按钮进行手机验证</div>
+                        <label for="" id="qq_error" style="display: none;" class="focus error">验证码错误！</label>
+                    </div>
+                    <!-- messagecheck -->
+                    <div class="item mem_pholog posi_rela" id="yzm_div" style="display: none">
+                        <div class="label">手机验证码</div>
+                        <input type="text" class="phcode" id="yanzhengma" autocomplete="off" placeholder="输入验证码">
+                        <div class="codetime sendmess"><a href="###">发送短信</a></div>
+                        <div class="codetime waitmess" style="display: none;"><a href="javascript:;"></a></div>
+                        <label for="" class="focus error" id="errMsgCode" style="display:none"></label>
+                    </div>
+                    <!-- free reg -->
+                    <div class="item jzzh">
+                        <div class="florig fr">
+                            <label><a href="reg.html" class="moumov">免费注册 > </a></label>
+                        </div>
+                    </div>
+                    <!-- login -->
+                    <div class="item item-xy ">
+                        <div class="item-sj">
+                            <input type="hidden" name="act" value="act_login">
+                            <input type="hidden" name="back_act" value="https://www.baiji.com.cn/">
+                            <input type="button" name="submit" value="登 录" class="zc-ljzc" id="ptLogin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- extra con -->
+            <div class="mem_other">
+                <div class="hzwz">
+                    <p>您还可以使用合作网站账号登录康德乐：</p>
+                    <p class="way151028">
+                        <a href="###" class="logway qq"></a>
+                        <a href="###" class="logway weibo"></a>
+                        <a href="###" class="logway wechat"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- login_foot -->
+    <div id="foot_bottom">
+        <p>康德乐大药房-国家药监局认证的合法网上药店，专科连锁药房，专注于经营重大慢性疾病用药。粤ICP备11004502号-7 &copy;2005-2019 康德乐网上药店版权所有，并保留所有权利。</p>
+        <p>
+            <a href="###">企业营业执照</a>
+            <a href="###">互联网药品交易服务资格证书</a>
+            <a href="###">互联网药品信息服务资格证书</a>
+            <a href="###">药品经营许可证</a>
+        </p>
+        <div>
+            <ul>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../js/login.js"></script>
+</html>

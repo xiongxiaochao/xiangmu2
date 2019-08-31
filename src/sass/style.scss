@@ -1,0 +1,1158 @@
+/* index list details */ 
+
+/* start top */
+#baiji_top {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #F2F2F2;
+
+    div {
+        height: 100%;
+
+        >i {
+            display: inline-block;
+            width: 12px;
+            height: 15px;
+            background: url('../img/tp/newicon.png') no-repeat -115px -2px;
+            margin-right: 8px;
+        }
+
+        >span {
+            font-size: 12px;
+            line-height: 35px;
+            color: #555555;
+            margin-right: 15px;
+
+            >a {
+                padding-left: 15px;
+                border-left: 1px solid #CCCCCC;
+                color: #555555;
+
+                &:hover {
+                    color: #FF5C4D;
+                }
+            }
+        }
+
+        >ul li {
+            float: left;
+            font-size: 12px;
+            line-height: 35px;
+            color: #666666;
+            padding: 0px 0px 0px 10px;
+            cursor: default;
+
+            i {
+                display: inline-block;
+                width: 5px;
+                height: 6px;
+                background: url('../img/tp/newicon.png') no-repeat -154px -4px;
+                margin: 0px 7px;
+            }
+
+            s {
+                display: inline-block;
+                margin: 0px 6px 0 0;
+            }
+
+            &:nth-child(1) a {
+                color: #666666;
+                padding-right: 10px;
+            }
+
+            &:nth-child(2) a {
+                color: #FF5C4D;
+                padding-right: 10px;
+            }
+
+            &:nth-child(3) a {
+                color: #666666;
+                padding-right: 10px;
+            }
+
+            &:nth-child(4) a {
+                color: #FF5C4D;
+                padding-right: 10px;
+            }
+
+            &:nth-child(5) {
+                padding-right: 10px;
+                a{
+                    color: #666666;
+                    s {
+                        width: 19px;
+                        height: 18px;
+                        background: url('../img/tp/newicon.png') no-repeat -204px -1px;
+                    }
+    
+                    span {
+                        color: #FF5C4D;
+                    }
+    
+                }
+                
+                &:hover a{
+                    color: #FF5C4D;
+                    cursor: pointer;
+                }
+            }
+
+            &:nth-child(8) {
+                s {
+                    width: 11px;
+                    height: 10px;
+                    background: url('../img/tp/newicon.png') no-repeat -183px -4px;
+                }
+            }
+
+            &:nth-child(9) {
+                s {
+                    width: 8px;
+                    height: 11px;
+                    background: url('../img/tp/newicon.png') no-repeat -234px -4px;
+                }
+
+                padding-right: 8px;
+            }
+        }
+    }
+}
+
+/* end top */
+
+/* start logo */
+#baiji_logo {
+    width: 100%;
+    height: 100%;
+
+    >div {
+        height: 120px;
+        position: relative;
+
+        div {
+            position: absolute;
+            left: 340px;
+            top: 31px;
+
+            input[type="text"] {
+                width: 492px;
+                height: 40px;
+                border: 2px solid #4496EE;
+                padding-left: 10px;
+                font-size: 16px;
+            }
+
+            input[type="button"] {
+                width: 102px;
+                height: 40px;
+                color: #fff;
+                font-size: 15px;
+                background: #4496EE;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            width: 594px;
+            font-size: 12px;
+            line-height: 24px;
+
+            a {
+                margin: 0px 8px;
+                color: #666666;
+
+                &:hover {
+                    color: #4496EE;
+                }
+            }
+        }
+
+        .logo_r {
+            position: absolute;
+            right: 0;
+            top: 32px;
+        }
+    }
+}
+
+/* end logo */
+
+/* start nav */
+#baiji_nav {
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid #3284DD;
+
+    div {
+        height: 42px;
+        position: relative;
+
+        div {
+            width: 190px;
+            height: 42px;
+            font-size: 15px;
+            line-height: 42px;
+            background: #3184DD;
+            color: #FFFFFF;
+            text-align: center;
+            cursor: pointer;
+            margin-right: 25px;
+            position: relative;
+
+            .shoplist {
+                position: absolute;
+                top: 42px;
+                left: 0px;
+                z-index: 233;
+
+                // display: none;
+                li {
+                    width: 190px;
+                    height: 41px;
+                    background: #3184DD;
+                    border-bottom: 1px solid #3C92E2;
+                    text-align: left;
+                    padding-left: 42px;
+                    position: relative;
+
+                    a {
+                        color: #fff;
+                    }
+
+                    >i {
+                        display: block;
+                        width: 24px;
+                        height: 22px;
+                        position: absolute;
+                        left: 10px;
+                        top: 9px;
+                        background: url('../img/tp/newicon.png') no-repeat -112px -30px;
+                    }
+
+                    &:nth-child(2)>i {
+                        background-position: -216px -30px;
+                    }
+
+                    &:nth-child(3)>i {
+                        background-position: -255px -30px;
+                    }
+
+                    &:nth-child(4)>i {
+                        background-position: -146px -30px;
+                    }
+
+                    &:nth-child(5)>i {
+                        background-position: -353px -30px;
+                    }
+
+                    &:nth-child(6)>i {
+                        background-position: -386px -30px;
+                    }
+
+                    &:nth-child(7)>i {
+                        background-position: -180px -30px;
+                    }
+
+                    &:nth-child(8)>i {
+                        background-position: -416px -30px;
+                    }
+
+                    &:nth-child(9)>i {
+                        background-position: -287px -30px;
+                    }
+
+                    &:nth-child(10)>i {
+                        background-position: -321px -30px;
+                    }
+
+                    &:nth-child(11)>i {
+                        background-position: -440px -30px;
+                    }
+
+                    &:nth-child(12)>i {
+                        background-position: -287px -30px;
+                    }
+
+                    &:hover {
+                        background: #fff;
+
+                        a {
+                            color: #3184DD;
+                        }
+
+                        i {
+                            background-position: -112px -87px;
+                        }
+
+                        &:nth-child(2)>i {
+                            background-position: -216px -87px;
+                        }
+
+                        &:nth-child(3)>i {
+                            background-position: -255px -87px;
+                        }
+
+                        &:nth-child(4)>i {
+                            background-position: -146px -87px;
+                        }
+
+                        &:nth-child(5)>i {
+                            background-position: -353px -87px;
+                        }
+
+                        &:nth-child(6)>i {
+                            background-position: -386px -87px;
+                        }
+
+                        &:nth-child(7)>i {
+                            background-position: -180px -87px;
+                        }
+
+                        &:nth-child(8)>i {
+                            background-position: -416px -87px;
+                        }
+
+                        &:nth-child(9)>i {
+                            background-position: -287px -87px;
+                        }
+
+                        &:nth-child(10)>i {
+                            background-position: -321px -87px;
+                        }
+
+                        &:nth-child(11)>i {
+                            background-position: -440px -87px;
+                        }
+
+                        &:nth-child(12)>i {
+                            background-position: -287px -87px;
+                        }
+                    }
+                }
+
+            }
+
+            // &:hover .shoplist{
+            // display: block;
+            // }
+        }
+
+        .navlist {
+            float: left;
+
+            li {
+                float: left;
+                font-size: 15px;
+                line-height: 42px;
+                padding: 0px 25px;
+                cursor: pointer;
+                position: relative;
+
+                a {
+                    color: #000;
+
+                    &:hover {
+                        color: #3184DD;
+                    }
+                }
+
+                s {
+                    display: block;
+                    width: 10px;
+                    height: 5px;
+                    background: url('../img/tp/newicon.png') no-repeat -136px -3px;
+                    position: absolute;
+                    left: 91px;
+                    top: 19px;
+                }
+
+                &:hover {
+                    color: #3184DD;
+                }
+
+                &:hover s {
+                    background: url('../img/tp/newicon.png') no-repeat -136px -14px;
+                }
+            }
+        }
+
+        .navright{
+            width: 291px;
+            height: 49px;
+            position: absolute;
+            right: 0px;
+            top: -9px;
+            background: #fff;
+            >a{
+                display: inline-block;
+                width: 105px;
+                height: 49px;
+                background: url('../img/tp/newicon.png') no-repeat 0px 0px;
+                margin-right: 24px;
+            }
+            span{
+                display: inline-block;
+                width: 162px;
+                height: 49px;
+                background: url('../img/tp/sph-400all.png') no-repeat 0px 6px;
+                position: relative;
+                p{
+                    font-size: 17px;
+                    font-weight: 900;
+                    line-height: 29px;
+                    color:#2F88DC;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 22px;
+                }
+            }
+        }
+    }
+}
+
+/* end nav */
+
+/* start foot_top */ 
+#foot_top{
+    width: 100%;
+    height: 161px;
+    background: #F8F8F8;
+    padding: 20px 0px;
+    .foot_top{
+        height: 121px;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px #ccc;
+        >div{
+            float: left;
+            width: 25%;
+            height: 121px;
+            position: relative;
+            padding: 35px 0px 0px 128px;
+            i{
+                display: block;
+                width: 70px;
+                height: 70px;
+                background: url('../img/tp/newicon.png') no-repeat 0px -72px;
+                position: absolute;
+                left: 40px;
+                top: 26px;
+            }
+            h3{
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 28px;
+                color: #4C4C4C;
+            }
+            p{
+                font-size: 12px;
+                line-height: 22px;
+                color: #666666;
+            }
+            &:nth-child(2) i{
+                background-position: 0px -143px;
+            }
+            &:nth-child(3) i{
+                background-position: 0px -214px;
+            }
+            &:nth-child(4) i{
+                background-position: 0px -285px;
+            }
+        }
+    }
+}
+
+/* end foot_top */ 
+
+/* start sidebar */
+.sidequan{
+    width: 2px;
+    // width: 256px;
+    height: 96%;
+    background: #3184dd;
+    position: fixed;
+    right: 0px;
+    top: 20px;
+    z-index: 1000009;
+    .posirelative{
+        width: 256px;
+        height: 100%;
+        position: relative;
+        .sidebar{
+            width: 180px;
+            min-height: 179px;
+            padding-top: 44px;
+            /* overflow: hidden; */
+            bottom: 50%;
+            right: 108px;
+            position: absolute;
+            .posirelative{
+                width: 100%;
+                height: 100%;
+                position: relative;   
+            }
+            .navhide{
+                height: 35px;
+                font-size: 12px;
+                position: absolute;
+                background: #4889f6;
+                color: #FFF;
+                border-radius: 2px 0px 0px 2px;
+                cursor: pointer;
+                transition: all 0.2s linear 0.1s;
+                z-index: 2;
+                // display: none;
+                .jiannum{
+                    display: block;
+                    width: 18px;
+                    height: 15px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #fff;
+                    background: #ff5c4d;
+                    border-radius: 6px;
+                    position: absolute;
+                    left: 13px;
+                    top: -8px;
+                }
+                .nav820aa{
+                    width: 105px;
+                    right: -71px;
+                    top: -36px;
+                    s{
+                        background-position: 0px 2px;
+                        position: relative;        
+                    }
+                }
+                s{
+                    width: 20px;
+                    height: 20px;
+                    display: block;
+                    float: left;
+                    background: url('../img/tp/sidebar.png') no-repeat;
+                    margin: 8px 0px 0px 6px;
+                }
+                span{
+                    width: 69px;
+                    overflow: hidden;
+                    display: block;
+                    float: left;
+                    font-size: 12px;
+                    line-height: 35px;
+                    padding-left: 8px;
+                }
+            }
+            .navitem{
+                height: 35px;
+                position: absolute;
+                background: #4889f6;
+                color: #FFF;
+                border-radius: 2px 0px 0px 2px;
+                cursor: pointer;
+                transition: all 0.3s linear 0.1s;
+                z-index: 1;
+                a{color: #fff;}
+            }
+            div{
+                .sina91_wechat{
+                    position: absolute;
+                    left: -130px;
+                    top: 25px;
+                    display: none;
+                    .sn91_wca{
+                        width: 120px;
+                        height: 120px;
+                        padding: 5px;
+                        background: #fff;
+                    }
+                    .sn91_wcb{
+                        // padding: 5px 10px;
+                        width: 120px;
+                        height: 43px;
+                        font-size: 12px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #FFF;
+                        background: #377bee;
+                    }
+                }
+            }
+        }
+        .sideslide{
+            width: 265px;
+            // min-height: 1400px;
+            background: #f5f5f5;
+            left: 2px;
+            z-index: 1000;
+            top: 0px;
+            position: absolute;
+            // display: none;
+            .title{
+                height: 44px;
+                line-height: 44px;
+                text-indent: 15px;
+                font-size: 18px;
+                background: #4496ee;
+                color: #fff;
+                position: relative;
+                span{
+                    font-size: 14px;
+                }
+                .emclose{
+                    width: 14px;
+                    height: 14px;
+                    background: url('../img/tp/kdlphicon.png') no-repeat -307px -82px;
+                    top: 15px;
+                    right: 10px;
+                    cursor: pointer;
+                    position: absolute;
+                }
+            }
+            .fnmicr{
+                font-family: 'Microsoft yahei';
+            }
+            .w{
+                .gtcart{
+                    height: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    font-family: '宋体';
+                    a{
+                        font-size: 12px;
+                        color: #555555;
+                        &:hover{
+                            color: #ff5c4d;
+                        }
+                    }
+                }
+                .sidebar_pro{
+                    // height: 80%;
+                    min-height: 404px;
+                    // overflow-y: scroll;
+                    .proitem{
+                        width: 260px;
+                        height: 105px;
+                        padding: 15px;
+                        // height: 75px;
+                        background: #FFF;
+                        position: relative;
+                        margin-bottom: 10px;
+                        .iteclo{
+                            width: 17px;
+                            height: 17px;
+                            position: absolute;
+                            right: 5px;
+                            top: 5px;
+                            background: url('../img/tp/kdlphicon.png') no-repeat -305px -101px;
+                            cursor: pointer;
+                        }
+                        .prolef{
+                            width: 70px;
+                            background: #FCC;
+                            margin-top: 3px;
+                            margin-right: 5px;
+                            a{
+                                img{
+                                    width: 70px;
+                                    height: 70px;
+                                }
+                            }
+                        }
+                        .linedis{
+                            width: 155px;
+                            height: 22px;
+                            line-height: 22px;
+                            overflow: hidden;
+                            font-size: 12px;
+                            padding-right: 10px;
+                            color: #999999;
+                            a{
+                                width: 132px;
+                                font-size: 12px;
+                                line-height: 22px;
+                                color: #666;
+                                &:hover{
+                                    color: #ff5c4b;
+                                }
+                            }
+                            font{
+                                font-size: 12px;
+                                color: #ccc;
+                            }
+                            .wrap-input1510{
+                                width: 74px;
+                                float: left;
+                                .btn-reduce{
+                                    display: inline-block;
+                                    width: 15px;
+                                    height: 15px;
+                                    background:url('../img/tp/smicon2018.png') no-repeat -63px -92px;
+                                }
+                                .sumtext{
+                                    display: inline-block;
+                                    width: 26px;
+                                    height: 16px;
+                                    border: none;
+                                    font-size: 12px;
+                                    text-align: center;
+                                }
+                                .btn-add{
+                                    display: inline-block;
+                                    width: 15px;
+                                    height: 15px;
+                                    background:url('../img/tp/smicon2018.png') no-repeat -80px -92px;
+                                    margin-left: 3px;
+                                }
+                            }
+                            .sum1510{
+                                float: left;
+                                font-size: 12px;
+                                color: #ff5c4d;
+                                font-weight: bold;
+                            }
+                        }
+                        .mart3{
+                            margin-top: 3px;
+                        }
+                    }
+                }
+                .sidegtc{
+                    padding: 15px;
+                    #numberdaohang{
+                        display: block;
+                        color: #555555;
+                        line-height: 22px;
+                    }
+                    p{
+                        display: block;
+                        color: #555555;
+                        font-size: 12px;
+                        line-height: 22px;
+                        .red{
+                            color: #ff5c4d !important;
+                        }
+                    }
+                    .gotocart{
+                        width: 235px;
+                        height: 35px;
+                        line-height: 35px;
+                        display: block;
+                        font-size: 16px;
+                        color: #FFF;
+                        text-align: center;
+                        color: #FFF;
+                        background: #ff5c4d;
+                        border-radius: 4px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+
+/* end sidebar */
+
+
+/* start footer */
+#baiji_footer {
+    width: 100%;
+    height: 240px;
+    background: #377BEE;
+
+    .foot_contain {
+        padding-top: 23px;
+        position: relative;
+
+        >ul>li {
+            float: left;
+            width: 165px;
+            font-size: 18px;
+            line-height: 44px;
+            font-weight: 900;
+            color: #fff;
+
+            >ul {
+                padding-top: 7px;
+
+                >li {
+                    line-height: 21px;
+                    font-weight: 100;
+
+                    a {
+                        padding-top: 0px;
+                        font-size: 11px;
+                        color: #fff;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        div {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+    }
+}
+
+/* end footer */
+
+/* start foot_bottom  reg_foot */
+#foot_bottom {
+    width: 100%;
+    height: 171px;
+    padding-top: 27px;
+
+    p {
+        font-size: 12px;
+        line-height: 24px;
+        color: #555555;
+        text-align: center;
+
+        a {
+            color: #377BEE;
+            margin: 0px 21px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    div {
+        height: 53px;
+        margin-top: 13px;
+        padding-left: 282px;
+
+        ul {
+            li {
+                float: left;
+
+                a {
+                    display: block;
+                    width: 147px;
+                    height: 53px;
+                    background: url('../img/tp/bottom.png') no-repeat 0px 0px;
+                    margin-right: 10px;
+                }
+
+                &:nth-child(2) a {
+                    background-position: -157px 0;
+                }
+
+                &:nth-child(3) a {
+                    background-position: -324px 0;
+                }
+
+                &:nth-child(4) a {
+                    background-position: -481px 0;
+                }
+
+                &:nth-child(5) a {
+                    background-position: -638px 0;
+                }
+            }
+        }
+    }
+}
+
+/* end foot_bottom */
+
+
+
+/* reg login */ 
+
+/* start reg_head */ 
+#reg_head{
+    width: 100%;
+    height: 101px;
+    border-bottom: 1px solid #CECECE;
+    box-shadow: 0 0 5px #888;
+    padding: 5px 70px 0 80px;
+    h1{
+        float: left;
+    }
+    p{
+        float: right;
+        width: 368px;
+        height: 90px;
+        background: url('../img/regAndlogin/kdlcn_logo.jpg') no-repeat right center;
+        line-height: 90px;
+        a{
+            color: #FF7F4D;
+        }
+    }
+}
+
+/* end reg_head */
+
+
+/* start login_tips */ 
+.mem_logbox{
+    width: 418px;
+    height: 445px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 20px 30px;
+    margin-right: 0px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -179px;
+    margin-top: -202.5px;
+    z-index: 10003;
+    .posi_rela{
+        position: relative;
+        .clox{
+            width: 14px;
+            height: 13px;
+            display: block;
+            background: url('../img/tp/kdlphicon.png') no-repeat -338px -219px;
+            position: absolute;
+            right: -15px;
+            top: -5px;
+            cursor: pointer;
+        }
+    }
+    .mem_logtab{
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #e1edfd;
+        font-size: 16px;
+        ul{
+            li{
+                width: 50%;
+                float: left;
+                text-align: center;
+                cursor: pointer;
+                position: relative;
+                font-family: 'Microsoft yahei';
+                -webkit-user-select: none;
+                i{
+                    width: 70px;
+                    height: 3px;
+                    background: #74aaf0;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -35px;
+                    bottom: 0px;
+                    display: block;
+                }
+                s{
+                    width: 1px;
+                    height: 20px;
+                    position: absolute;
+                    right: 0px;
+                    top: 15px;
+                    display: block;
+                    background: #eeeeee;
+                }
+            }
+            .cur{
+                color: #72a8ee;
+            }
+        }
+    }
+    .mem_logcon{
+        width: 358px;
+        height: 219px;
+        .reg-r{
+            width: 358px;
+            height: 219px;
+            .item{
+                width: 358px;
+                height: 42px;
+                position: relative;
+                min-height: 40px;
+                line-height: 34px;
+                margin-top: 30px;
+                .item-sj{
+                    position: relative;
+                    .o-regName{
+                        border: 1px solid #ddd;
+                    }
+                }
+                .text{
+                    width: 355px;
+                    height: 40px;
+                    // border: 1px solid #cfcfcf;
+                    font-family: arial,"宋体";
+                    font-size: 14px;
+                    line-height: 40px;
+                    color: rgb(153, 153, 153);
+                    padding-left: 45px;
+                    background: url('../img/tp/kdlphicon.png') no-repeat -472px -159px;
+                }
+                .focus{
+                    position: absolute;
+                    left: 0px;
+                    top: 45px;
+                    width: 272px;
+                    padding-left: 20px;
+                    height: 20px;
+                    line-height: 22px;
+                    font-size: 12px;
+                    background-color: #fff;
+                }
+                .error{
+                    background: url('../img/tp/kdlphicon.png') no-repeat -486px -100px;
+                    color: #ff5c4b;
+                }
+                .text-mm{
+                    background-position: -469px -196px;
+                }
+            }
+            .jzzh{
+                margin-top: 14px;
+                font-size: 12px;
+            }
+            .item-xy{
+                // padding-top: 0;
+                height: 45px;
+                margin-top: 6px;
+                .item-sj{
+                    position: relative;
+                    input{
+                        margin: 0;
+                        font-size: 12px;
+                        vertical-align: middle;
+                    }
+                    .zc-ljzc{
+                        width: 100%;
+                        height: 42px;
+                        display: block;
+                        background: #3283de;
+                        font-size: 18px;
+                        color: #fff;
+                        text-align: center;
+                        border: none;
+                        font: 400 18px/42px "\5FAE\8F6F\96C5\9ED1";
+                        cursor: pointer;
+                        margin-bottom: 20px;
+                        border-radius: 4px;
+                        transition: all 0.5s linear 0.1s;
+                    }
+                }
+            }
+            .mem_pholog{
+                padding: 0px;
+                line-height: 40px;
+                border: 1px solid #ccc;
+                input{
+                    font-size: 14px;
+                    font-family: 'Microsoft yahei';
+                }
+                .label{
+                    width: 120px;
+                    height: 40px;
+                    line-height: 40px;
+                    float: left;
+                    color: #4e4e4e;
+                    text-indent: 20px;
+                    font-family: 'Microsoft yahei';
+                    font-size: 15px;
+                }
+                .phone{
+                    width: 235px;
+                    height: 20px;
+                    line-height: 20px;
+                    border: none;
+                    padding: 10px 0px;
+                }
+                .mem_tipicon01{
+                    width: 26px;
+                    height: 26px;
+                    display: block;
+                    position: absolute;
+                    top: 7px;
+                    right: 3px;
+                    background: url('../img/tp/kdlphicon.png') no-repeat -478px -129px;
+                }
+                .codebut{
+                    width: 356px;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #000;
+                    display: block;
+                    text-align: center;
+                    border: none;
+                    cursor: pointer;
+                    background: #fff;
+                    font-size: 12px;
+                }
+                .phcode{
+                    width: 118px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: none;
+                    float: left;
+                }
+                .codetime{
+                    width: 117px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #99999b;
+                    background: #f4f5f7;
+                    float: right;
+                    font-size: 12px;
+                    a{
+                        color: #555;
+                    }
+                }
+            }
+            .jzzh{
+                width: 358px;
+                height: 40px;
+                margin-top: 14px;
+                .florig{
+                    width: 59px;
+                    height: 34px;
+                    label{
+                        cursor: default;
+                        a{color: #62b1ea;}
+                    }
+                }
+            }
+        }
+
+    }
+    .mem_other{
+        width: 358px;
+        height: 31px;
+        .hzwz{
+            font-size: 12px;
+            border-top: 1px solid #e5e5e5;
+            margin-top: 30px;
+            line-height: 30px;
+            color: #878988; 
+            .way151028{
+                .logway{
+                    width: 43px;
+                    height: 43px;
+                    margin-right: 10px;
+                    float: left;
+                    border-radius: 50%;
+                    border: 1px solid #ebebeb;
+                    background: url('../img/tp/kdlphicon.png') no-repeat;
+                }
+                .qq{
+                    background-position: -380px -95px;
+                }
+                .weibo{
+                    background-position: -428px -95px;
+                }
+                .wechat{
+                    background-position: -428px -143px;
+                }
+            }
+        }
+    }
+}
+
+/* end login_tips */

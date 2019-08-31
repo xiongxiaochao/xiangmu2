@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base_px.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+
+    <!-- top -->
+    <div id="baiji_top">
+        <div class="con">
+            <i></i><span>广州</span><span><a href="###">全国专科连锁直营门店</a></span>
+            <ul class="fr">
+                <li style="display: none;" class="weluser">欢迎</li>
+                <li style="display: none;" class="quit"><a href="list.html" >退出</a></li>
+                <li class="toLogin"><a href="login.html" >请登录</a></li>
+                <li class="toReg"><a href="reg.html" >免费注册</a></li>
+                <li class="cartNum"><a href="cart.html"><s></s>购物车<span>0</span>件</a></li>
+                <li>我的康德乐<i></i></li>
+                <li>客户服务<i></i></li>
+                <li><s></s>网站导航<i></i></li>
+                <li><s></s>手机版<i></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div id="baiji_main">
+        <div id="baiji_cart">
+
+            <!-- logo -->
+            <div id="cart_logo">
+                <div id="cart_logo_left">
+                    <a href="../index.html"><img src="../img/cart_img/logo.jpg" alt=""></a>
+                </div>
+                <div id="cart_logo_right">
+                    <ul>
+                        <li class="on">1.我的购物车</li>
+                        <li>2.填写核对订单信息</li>
+                        <li>3.成功提交订单</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- mycart -->
+            <div class="nwctit">
+                <h2>我的购物车</h2>
+                <em>全场满168免邮 520专享：买满168元+5.20元，即可获得原价￥23.2元10支装亮视/盒[效期至：2019-11-17]</em>
+            </div>
+
+            <!-- nogood init -->
+            <div class="nwcpro" style="display: block;" id="empty_cart">
+                <div class="cart-inner cart-empty">
+                    <div class="message">
+                        <p>购物车内暂时没有商品，您可以<a href="../index.html">去首页</a>挑选喜欢的商品</p>
+                        <input id="current_page" value="cart_page" type="hidden">
+                    </div>
+                </div>
+            </div>
+
+            <!-- havegoods -->
+            <div class="nwcpro" id="cart_list" style="display: none;">
+                <div class="nwcpro_tit">
+                    <dl>
+                        <dd class="nwcwid01">
+                            <input type="checkbox" class="all allcheck">
+                        </dd>
+                        <dd class="nwcwid02">全选</dd>
+                        <dd class="nwcwid03">商品名称</dd>
+
+                        <dd class="nwcwid04">会员价</dd>
+                        <dd class="nwcwid04">购买数量</dd>
+                        <dd class="nwcwid04">优惠金额</dd>
+                        <dd class="nwcwid04">商品重量</dd>
+                        <dd class="nwcwid04">小计</dd>
+                        <dd class="nwcwid01">操作</dd>
+                    </dl>
+                </div>
+                <div class="cart_reduce"></div>
+                <!-- goodlist -->
+                <div class="nwcpro_list">
+
+                    
+                    <!-- good DOM prepend() -->
+                    <!-- <div class="nwc_item" id="product">
+                        <dl>
+                            <dd class="nwcwid01">
+                                <input type="checkbox" class="all sincheck" name="checkItem">
+                            </dd>
+                            <dd class="nwcwid02">
+                                <a href="" target="_blank">
+                                    <img src="../img/tabs_img/shop1_tab1_img1.jpg" alt="汤臣倍健牌蛋白粉（铁罐装）">
+                                </a>
+                            </dd>
+                            <dd class="nwcwid03">
+                                <a href="###" title="汤臣倍健牌蛋白粉（铁罐装）" target="_blank" class="f6">汤臣倍健牌蛋白粉（铁罐装）</a><br>&nbsp;<em class="cgui_ge">规格：450g/罐（附量具）</em>
+                            </dd>
+                            <dd class="nwcwid04 nwprif">¥<font id="shopprice473556">188.00</font>
+                            </dd>
+                            <dd class="nwcwid04">
+                                <div class="nwquantity">
+                                    <a href="javascript:void(0);"  class="decrement"></a><input name="goods_number[473556]" type="text" id="number473556" value="1" style="border:1px solid #ccc;"><a href="javascript:void(0);" class="increment"></a>
+                                </div>
+                            </dd>
+                            <dd class="nwcwid04">省<span class="red nwprif" id="save473556">0</span>元</dd>
+                            <dd class="nwcwid04 nwprif">0.600千克</dd>
+                            <dd class="nwcwid04 nwprif"><strong id="subtotal473556">￥188</strong></dd>
+                            <dd class="nwcwid01">
+                                <a href="javascript:if (confirm('您确实要把该商品移出购物车吗？')) location.href='flow-drop_goods-473556.html'; ">删除</a>
+                            </dd>
+                        </dl>
+                    </div> -->
+
+
+                    <!-- delete allprice -->
+                    <div class="nwcallitem">
+                        <div class="nwcallitem_lef">
+                            <a href="javascript:void(0);">删除选中的商品</a>
+                            &nbsp; &nbsp; &nbsp;
+                            共选中
+                            <em id="checknum">0</em> 种商品
+                        </div>
+                        <div class="nwcallitem_rig" id="total-info">
+                            <dl class="fr">
+                                <dd>共 <em class="goodnumber">0</em> 件商品 &nbsp; &nbsp; &nbsp;总计：</dd>
+                                <dd class="nwprif jiesuan1">0.00元</dd>
+                            </dl>
+                            <dl></dl>
+                        </div>
+                    </div>
+                    <!-- add money -->
+                    <div class="nwctotal">
+                        <dl class="fr">
+                            <dd class="lable"><strong>商品总额（不含邮费）：<input id="current_page" value="cart_page"
+                                        type="hidden"></strong><em></em></dd>
+                            <dd class="price nwprif jiesuan1" id="goodsprice">0.00元</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- to give money -->
+            <div class="nwcgo" style="display: none;">
+                <a href="" class="nwcheckout dissubmit">去结算</a>
+                <a href="../index.html" class="nwcontinue">继续购物</a>
+            </div>
+
+
+            <!-- seemlikegoods1 -->
+            <div class="nwadd_ctit" style="display: none;"> <span class="tit">购买同样商品的用户还购买了 &nbsp;&nbsp;</span>
+            </div>
+
+            <div class="nwadd_ccon" style="display: none;">
+                <!-- <div class="nwadd_ccon_pro">
+                    <ul>
+                        <li class="tu">
+                            <a href="###" target="_blank" title="康乐保*1902*安舒造口袋">
+                                <img src="../img/tabs_img/shop1_tab1_img1.jpg" alt="康乐保*1902*安舒造口袋">
+                            </a>
+                        </li>
+                        <li class="zi">
+                            <a href="###" target="_blank" title="康乐保*1902*安舒造口袋">康乐保*1902*安舒造口袋</a><br>
+                        </li>
+                        <li>
+                            <strong class="price_info prinfo_5363" prinfo="5363">￥16.00</strong>
+                        </li>
+                        <li class="gradd">
+                            <div class="flolef fl">
+                                <div class="shopnum fl"><input type="text" value="1" id="buy-num-5363"><span><a class="add" href="javascript:void(0);"></a><a class="decrease" href="javascript:void(0);"></a></span></div>
+                                <div class="florig fl">
+                                    <a href="javascript:addToCartlist(5363)" class="adtc151021 cur">加入购物车</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+
+
+            <!-- seemlikegoods2 -->
+            <div class="nwadd_ctit" style="display: none;"> <span class="tit">你可能还需要购买 &nbsp;&nbsp;</span>
+                <div class="clear"></div>
+            </div>
+
+            <div class="nwadd_ccon" style="display: none;">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- foot_top -->
+    <div id="foot_top">
+        <div class="foot_top con">
+            <div>
+                <i></i>
+                <h3>正品保障</h3>
+                <p>正品保障 放心选购</p>
+            </div>
+            <div>
+                <i></i>
+                <h3>专业药师</h3>
+                <p>用药全程指导</p>
+            </div>
+            <div>
+                <i></i>
+                <h3>厂家授权</h3>
+                <p>厂家授权 正品渠道</p>
+            </div>
+            <div>
+                <i></i>
+                <h3>隐私配送</h3>
+                <p>安全放心 隐私配送</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="baiji_footer">
+        <div class="foot_contain con">
+            <ul>
+                <li>购物指南
+                    <ul>
+                        <li><a href="###">退换货流程</a></li>
+                        <li><a href="###">会员说明</a></li>
+                        <li><a href="###">订单管理</a></li>
+                        <li><a href="###">订购方式</a></li>
+                        <li><a href="###">订购流程</a></li>
+                        <li><a href="###">用户注册</a></li>
+                    </ul>
+                </li>
+                <li>购物保障
+                    <ul>
+                        <li><a href="###">配送保障</a></li>
+                        <li><a href="###">直营连锁</a></li>
+                        <li><a href="###">GSP管理</a></li>
+                        <li><a href="###">7天退换货</a></li>
+                        <li><a href="###">合法资质</a></li>
+                        <li><a href="###">十年品牌</a></li>
+                    </ul>
+                </li>
+                <li>支付方式
+                    <ul>
+                        <li><a href="###">网银/在线支付</a></li>
+                        <li><a href="###">银行汇款</a></li>
+                        <li><a href="###">货到付款</a></li>
+                    </ul>
+                </li>
+                <li>配送服务
+                    <ul>
+                        <li><a href="###">冷藏易碎品说明</a></li>
+                        <li><a href="###">商品签收</a></li>
+                        <li><a href="###">快递查询</a></li>
+                        <li><a href="###">配送细则</a></li>
+                    </ul>
+                </li>
+                <li>售后服务
+                    <ul>
+                        <li><a href="###">投诉与建议</a></li>
+                        <li><a href="###">7天退换货</a></li>
+                        <li><a href="###">提供机打发票</a></li>
+                        <li><a href="###">全程用药服务</a></li>
+                    </ul>
+                </li>
+                <li>关于我们
+                    <ul>
+                        <li><a href="###">商务伙伴</a></li>
+                        <li><a href="###">全国直营门店</a></li>
+                        <li><a href="###">公司简介</a></li>
+                        <li><a href="###">招募供应商</a></li>
+                        <li><a href="###">人才招聘</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <img src="../img/img-index/footerwc.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- foot_bottom -->
+    <div id="foot_bottom">
+        <p>康德乐大药房-国家药监局认证的合法网上药店，专科连锁药房，专注于经营重大慢性疾病用药。粤ICP备11004502号-7 &copy;2005-2019 康德乐网上药店版权所有，并保留所有权利。</p>
+        <p>
+            <a href="###">企业营业执照</a>
+            <a href="###">互联网药品交易服务资格证书</a>
+            <a href="###">互联网药品信息服务资格证书</a>
+            <a href="###">药品经营许可证</a>
+        </p>
+        <div>
+            <ul>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+                <li><a href="###"></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../js/cart.js"></script>
+</html>

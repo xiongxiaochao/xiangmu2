@@ -1,0 +1,458 @@
+/* nav */
+#baiji_nav > div > div .shoplist {
+  display: none;
+}
+#baiji_nav > div > div:hover .shoplist {
+  display: block;
+}
+
+#foot_top {
+  background: #F5F5F5;
+}
+
+#contain_top_top {
+  width: 100%;
+  height: 30px;
+  background: #F5F5F5;
+}
+#contain_top_top #contain_top {
+  height: 30px;
+  background: #FAFAFA;
+  color: #666666;
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 10px;
+}
+#contain_top_top #contain_top i {
+  display: inline-block;
+  width: 33px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  background: url("../img/tp/smicon2018.png") no-repeat -135px -213px;
+}
+#contain_top_top #contain_top a {
+  font-size: 12px;
+  line-height: 33px;
+  padding: 0px 5px;
+  color: #666666;
+}
+
+/* start baiji_detail */
+#baiji_detail {
+  width: 100%;
+  height: 640px;
+  padding-top: 20px;
+  background: #F5F5F5;
+}
+#baiji_detail div {
+  background: #fff;
+}
+#baiji_detail div #detail_left {
+  float: left;
+  width: 960px;
+  height: 620px;
+}
+#baiji_detail div #detail_left #manifer {
+  float: left;
+}
+#baiji_detail div #detail_left #manifer #box {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-bottom: 10px;
+}
+#baiji_detail div #detail_left #manifer #box .small {
+  width: 400px;
+  height: 400px;
+}
+#baiji_detail div #detail_left #manifer #box .small > img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #EEEEEE;
+}
+#baiji_detail div #detail_left #manifer #box .small .mask {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+  /* z-index: 2; */
+  cursor: move;
+}
+#baiji_detail div #detail_left #manifer #box .big {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 410px;
+  top: 0px;
+  z-index: 2;
+  overflow: hidden;
+  display: none;
+}
+#baiji_detail div #detail_left #manifer #box .big > img {
+  display: block;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#baiji_detail div #detail_left #manifer #imgTabs {
+  width: 400px;
+  height: 62px;
+  padding-left: 20px;
+  margin-bottom: 11px;
+}
+#baiji_detail div #detail_left #manifer #imgTabs > span {
+  display: inline-block;
+  width: 30px;
+  height: 62px;
+  position: relative;
+  cursor: pointer;
+}
+#baiji_detail div #detail_left #manifer #imgTabs > span > i {
+  display: block;
+  width: 13px;
+  height: 28px;
+  position: absolute;
+  left: 8px;
+  top: 16px;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #prev > i {
+  background: url("../img/tp/prevAndnext.png") no-repeat -63px 0;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #prev > i:hover {
+  background: url("../img/tp/prevAndnext.png") no-repeat 0px 0;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #next > i {
+  background: url("../img/tp/prevAndnext.png") no-repeat -92px 0;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #next > i:hover {
+  background: url("../img/tp/prevAndnext.png") no-repeat -31px 0;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #listBox {
+  display: inline-block;
+  overflow: hidden;
+  width: 300px;
+  height: 62px;
+  position: relative;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #listBox #list {
+  width: 300px;
+  height: 62px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #listBox #list li {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #listBox #list li > a > img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  background-size: contain;
+}
+#baiji_detail div #detail_left #manifer #imgTabs #listBox #list .active {
+  border: 2px solid #FF9696;
+}
+#baiji_detail div #detail_left #manifer > p {
+  width: 360px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #787878;
+  padding: 11px 0px 11px 20px;
+}
+#baiji_detail div #detail_left #manifer > p a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  margin-right: 8px;
+}
+#baiji_detail div #detail_left #manifer > p span {
+  float: right;
+  line-height: 20px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background: #ECECEC;
+  cursor: pointer;
+}
+#baiji_detail div #detail_left #manifer > p span:hover {
+  background: #F54343;
+  color: #fff;
+}
+#baiji_detail div #detail_left #detailinf {
+  width: 542px;
+  height: 620px;
+  float: right;
+  padding-top: 6px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top p {
+  padding-left: 10px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .intro {
+  font-size: 18px;
+  line-height: 54px;
+  font-weight: 900;
+  color: #000000;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .price {
+  width: 505px;
+  height: 54px;
+  background: #FFF2EB;
+  font-size: 12px;
+  line-height: 54px;
+  margin-bottom: 15px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .price .goodprice {
+  font-size: 21px;
+  font-weight: 900;
+  color: #F54343;
+  margin-left: 10px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .price .freesend {
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  background: #E4393C;
+  padding: 0px 3px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .titleintro {
+  font-size: 12px;
+  line-height: 26px;
+  color: #9B9B9B;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .titleintro span {
+  color: #666666;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .titleintro .guige {
+  display: inline-block;
+  width: 124px;
+  height: 27px;
+  line-height: 27px;
+  border: 1px solid #FF7E6F;
+  padding-left: 7px;
+  margin-top: 5px;
+  position: relative;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_top .titleintro .guige i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/tp/smicon2018.png") no-repeat -108px -120px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom {
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p {
+  float: left;
+  width: 153px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
+  color: #9B9B9B;
+  padding-left: 10px;
+  position: relative;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p .goodNumval {
+  width: 48px;
+  height: 31px;
+  line-height: 40px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  margin: 0px 2px 0px 12px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p span {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background: url("../img/tp/kdlphicon.png") no-repeat -232px -47px;
+  cursor: pointer;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p .goodNumadd {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p .goodNumadd:hover {
+  background-position: -215px -47px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p .goodNumdis {
+  background-position: -232px -61px;
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom > p .goodNumdis:hover {
+  background-position: -215px -61px;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom .buyitnow {
+  display: inline-block;
+  width: 127px;
+  height: 40px;
+  background: #F5F5F5;
+  color: #E54144;
+  border: 1px solid #E54144;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom .addtoshop {
+  display: inline-block;
+  width: 159px;
+  height: 40px;
+  background: #FF5C4D;
+  font-size: 15px;
+  line-height: 40px;
+  border-radius: 2px;
+  color: #fff;
+  position: relative;
+  padding-left: 54px;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+#baiji_detail div #detail_left #detailinf #detailinf_bottom .addtoshop i {
+  display: block;
+  width: 24px;
+  height: 18px;
+  background: url("../img/tp/kdlphicon.png") no-repeat -231px -14px;
+  position: absolute;
+  top: 11px;
+  left: 25px;
+}
+#baiji_detail div #detail_left #detailinf > p {
+  padding-left: 74px;
+}
+#baiji_detail div #detail_left #detailinf > p span i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/tp/kdlphicon.png") no-repeat -332px -50px;
+  margin: 0px 5px;
+}
+#baiji_detail div #detail_left #detailinf > p span a {
+  font-size: 12px;
+  color: #555555;
+  line-height: 12px;
+}
+#baiji_detail div #detail_left #detailinf > p span a:hover {
+  color: #F54343;
+}
+#baiji_detail div #detail_right {
+  float: right;
+  width: 250px;
+  height: 620px;
+}
+
+/* mark */
+.nwadd_bla {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10002;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-attachment: scroll;
+  opacity: 0.6;
+}
+
+/* start join_cart_success */
+#popGeneral {
+  width: 549px;
+  display: none;
+  position: fixed;
+  margin-left: -269.5px;
+  left: 50%;
+  background-color: #fff;
+  border: 0 solid #cdcdcd;
+  z-index: 1000002;
+  float: left;
+  top: 50%;
+  bottom: auto;
+  margin-top: -84px;
+}
+#popGeneral .hd_cart_pop {
+  width: 549px;
+  padding: 5px;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+#popGeneral .hd_cart_pop .hd_pop_content {
+  position: relative;
+  width: 536px;
+  padding: 40px 0 10px 0;
+  border: 1px solid #b1b1b1;
+  background: #FFF;
+}
+#popGeneral .hd_cart_pop .hd_pop_content span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: url("../img/tp/kdlphicon.png") no-repeat -255px -86px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_tips {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_tips i {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 14px;
+  background: url("../img/tp/kdlphicon.png") no-repeat -273px -148px;
+  vertical-align: middle;
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_btn {
+  width: 385px;
+  margin: 0 auto;
+  padding: 18px 0 25px 0;
+  text-align: center;
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_btn a {
+  display: inline-block;
+  width: 123px;
+  height: 41px;
+  margin: 0 5px;
+  line-height: 41px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_btn .hd_btn_l {
+  border: 1px solid #ddd;
+  background: #fcfcfc;
+  color: #666;
+}
+#popGeneral .hd_cart_pop .hd_pop_content .hd_pop_btn .hd_btn_r {
+  border: 1px solid #4889f6;
+  background: #4889f6;
+  color: #FFF;
+}
+
+/* end join_cart_success */
+
+/*# sourceMappingURL=details.css.map */

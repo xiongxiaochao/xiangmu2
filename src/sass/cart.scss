@@ -1,0 +1,459 @@
+#foot_top{background: #FFFFFF;}
+
+/* start baiji_main */ 
+#baiji_main{
+    width: 100%;
+    #baiji_cart{
+        width: 990px;
+        margin: 0 auto;
+        #cart_logo{
+            height: 90px;
+            #cart_logo_left{
+                float: left;
+            }
+            #cart_logo_right{
+                float: right;
+                width: 500px;
+                height: 78px;
+                background: url('../img/tp/stepone2018.jpg') no-repeat left 20px;
+                ul{
+                    li{
+                        width: 160px;
+                        display: block;
+                        margin-top: 60px;
+                        font-size: 12px;
+                        color: #cccccc;
+                        text-align: center;
+                        float: left;
+                    }
+                    .on {
+                        color: #4e9cee;
+                    }
+                }
+            }
+        }
+        /* mycart */ 
+        .nwctit{
+            height: 50px;
+            border-top: #d0d0d0 1px solid;
+            h2{
+                font-size: 18px;
+                font-weight: 900;
+                color: #555555;
+                line-height: 50px;
+                font-family: 'microsoft yahei';
+                text-indent: 10px;
+                display: block;
+                float: left;
+            }
+            em{
+                display: inline-block;  
+                height: 50px; 
+                font-size: 12px;
+                line-height: 50px; 
+                padding-left: 7px; 
+                color: #e4393c;
+            }
+        }
+
+        /* nogood init */ 
+        .nwcpro{
+            border: #dcdcdc 1px solid;
+            .cart-empty{
+                border: 1px solid #DDDDDD;
+                height: 100px;
+                .message{
+                    background: url('../img/cart_img/cart-empty-bg.png') no-repeat 250px 22px #F3F3F3;
+                    height: 98px;
+                    padding-left: 341px;       
+                    p{
+                        font-size: 12px;
+                        line-height: 98px;
+                        a{color: #005EA7;}
+                    } 
+                }
+            }
+        }
+
+        /* havegoods */ 
+        .nwcpro{
+            width: 990px;
+            // height: 276px;
+            border: #dcdcdc 1px solid;
+            .nwcpro_tit{
+                height: 35px;
+                line-height: 35px;
+                background: #f6f6f6;
+                dl{
+                    overflow: hidden;
+                    dd{
+                        display: block;
+                        float: left;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 38px;
+                        color: #000;
+                        .all{
+                            float: left;
+                            margin: 11px 3px 0 15px;
+                        }
+                    }
+                    .nwcwid01{
+                        width: 50px;
+                    }
+                    .nwcwid02{
+                        width: 94px;
+                        text-align: left;
+                    }
+                    .nwcwid03{
+                        width: 240px;
+                        text-align: left !important;
+                    }
+                    .nwcwid04{
+                        width: 110px;
+                    }
+                }
+            }
+            .cart_reduce{
+                background: #fff;
+                height: 40px;
+                padding: 0 20px;
+                line-height: 35px;
+                clear: both;
+                overflow: hidden;
+                border-bottom: 1px solid #dcdcdc;
+            }
+            /* goodlist */ 
+            .nwcpro_list{
+                /* good */ 
+                .nwc_item{
+                    width: 988px;
+                    height: 105px;
+                    border-bottom: #dcdcdc 1px solid;
+                    dl{
+                        dd{
+                            min-height: 85px;
+                            display: block;
+                            float: left;
+                            font-size: 12px;
+                            text-align: center;
+                            line-height: 85px;
+                            margin: 7px 0px;
+                            .all{
+                                float: left;
+                                margin: 37px 3px 0 15px;
+                            }
+                        }
+                        .nwcwid01{
+                            width: 50px;
+                            a{color: #377bee;}
+                        }
+                        .nwcwid02{
+                            text-align: left;
+                            position: relative;
+                            img{
+                                width: 80px;
+                                margin-top: 2.5px;
+                            }
+                        }
+                        .nwcwid03{
+                            width: 240px;
+                            line-height: 20px;
+                            text-align: left !important;
+                            margin-left: 13px;
+                            a{
+                                color: #377bee;
+                                display: inline-block;
+                                margin-top: 20px;
+                            }  
+                            .cgui_ge{
+                                color: #A8A8A8;
+                                display: block;
+                                padding-bottom: 10px;         
+                            }   
+                        }
+                        .nwprif{
+                            font-family: Verdana,Arial;
+                        }
+                        .nwcwid04{
+                            width: 110px;
+                            .nwquantity{
+                                height: 35px;
+                                margin-top: 32px;
+                                padding-left: 15px;
+                                a{
+                                    width: 15px;
+                                    height: 15px;
+                                    display: block;
+                                    line-height: 20px;
+                                    float: left;
+                                    margin-top: 4px;
+                                }
+                                .decrement{
+                                    background: url('../img/tp/smicon01.png') -63px -92px no-repeat;
+                                    margin-right: 5px;
+                                }
+                                input{
+                                    width: 35px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    float: left;
+                                    margin-top: 0px;
+                                }
+                                .increment{
+                                    background: url('../img/tp/smicon01.png') -80px -92px no-repeat;
+                                    margin-left: 5px;
+                                }
+                            }
+                            .red{
+                                color: #ff5c4d !important;
+                            }
+                            strong{
+                                color: #ff5c4d;
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+                /* delete allprice */ 
+                .nwcallitem{
+                    width: 988px;
+                    height: 45px;
+                    background: #f6f6f6;
+                    font-size: 12px;
+                    padding: 10px 0px;
+                    .nwcallitem_lef{
+                        width: 300px;
+                        line-height: 22px;
+                        float: left;
+                        background: url('../img/tp/xxicon.gif') left 3px no-repeat;
+                        margin-left: 20px;
+                        padding-left: 18px;
+                        a{color: #0972b3;}
+                        em{color: #FF0000;}
+                    }
+                    .nwcallitem_rig{
+                        width: 260px;
+                        float: right;
+                        margin-right: 20px;
+                        dl{
+                            width: 220px;
+                            dd{
+                                width: 130px;
+                                height: 25px;
+                                line-height: 25px;
+                                text-align: right;
+                                float: left;
+                                em{color: #FF0000;}
+                            }
+                            .nwprif{
+                                width: 85px;
+                            }
+                        }
+                    }
+                }
+                /* add money */ 
+                .nwctotal{
+                    height: 45px;
+                    background: #ebebeb;
+                    line-height: 40px;
+                    dl{
+                        margin-right: 20px;
+                        dd{
+                            min-width: 30px;
+                            line-height: 43px;
+                            text-align: right;
+                            float: left;
+                            strong{
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+                            em{color: #666666;}
+                        }
+                        .lable{
+                            width: 200px;
+                            color: #000;
+                            font-family: 'microsoft yahei';
+                        }
+                        .price{
+                            font-size: 20px;
+                            color: #E4393C;
+                            font-weight: 400;
+                            font-family: Verdana,Arial;
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+
+        /* to give money */
+        .nwcgo{
+            height: 40px;
+            margin-top: 15px;
+            .nwcheckout{
+                width: 135px;
+                height: 36px;
+                line-height: 38px;
+                font-size: 16px;
+                font-weight: bold;
+                background: url('../img/tp/smicon02.png') left -156px no-repeat;
+                float: right;
+                display: block;
+                text-align: center;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+            /* highlight */ 
+            .dissubmit{
+                background: #B0B0B0;
+                border-radius: 4px;
+                cursor: not-allowed;
+            }
+            .nwcontinue{
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                background: url('../img/tp/nwcont.jpg') left top no-repeat;
+                text-align: center;
+                display: block;
+                float: right;
+                margin-right: 15px;
+                margin-top: 5px;
+                font-size: 14px;
+                font-family: 'Microsoft yahei';
+                cursor: pointer;
+                color: #666666;
+            }
+        }
+
+        /* seemlikegoods1 */ 
+        .nwadd_ctit{
+            height: 40px;
+            line-height: 40px;
+            background: #f2f2f2;
+            font-family: 'Microsoft yahei';
+            font-size: 15px;
+            margin: 25px 0px 10px 0px;
+            .tit{
+                display: block;
+                float: left;
+                text-indent: 10px;
+            }
+        }
+
+        .nwadd_ccon{
+            overflow: hidden;
+            .nwadd_ccon_pro{
+                width: 185px;
+                height: 256px;
+                margin: 0px 3px;
+                float: left;
+                line-height: 18px;
+                overflow: hidden;
+                ul{
+                    width: 185px;
+                    height: 256px;   
+                    overflow: hidden; 
+                    .tu{
+                        width: 175px;
+                        height: 175px;
+                        margin: 0px auto 5px auto;
+                        a{
+                            img{width: 175px;}
+                        }
+                    }
+                    .zi{
+                        height: 20px;
+                        font-size: 12px;
+                        overflow: hidden;
+                        margin-bottom: 5px;
+                        a{color: #666666;}
+                    }
+                    li{
+                        strong{
+                            font-size: 12px;
+                            color: #f03b44;
+                        }
+                    }
+                    .gradd{
+                        margin-top: 5px;
+                        text-align: center;   
+                        a{
+                            width: 80px;
+                            height: 25px;
+                            line-height: 25px;
+                            border: 1px solid #dddddd;
+                            background-color: #FFF;
+                            text-align: center;
+                            display: inline-block;
+                            color: #666666;
+                            text-decoration: none;
+                            transition: all 0.2s linear 0.1s;
+                        }           
+                        .flolef{
+                            .shopnum{
+                                input{
+                                    float: left;
+                                    width: 24px;
+                                    border: 1px solid #ddd;
+                                    border-radius: 2px;
+                                    padding: 1px;
+                                    height: 24px;
+                                    color: #555;
+                                    line-height: 28px;
+                                    text-align: center;
+                                }
+                                span{
+                                    float: left;
+                                    margin-left: 1px;
+                                    width: 16px;
+                                    height: 30px;
+                                }
+                                .add,.decrease{
+                                    width: 16px !important;
+                                    height: 14px !important;
+                                    overflow: hidden;
+                                    line-height: 14px !important;
+                                    text-indent: -99em;
+                                    cursor: pointer;
+                                    border: none !important;
+                                    background-image: url('../img/tp/kdlphicon.png');
+                                    background-repeat: no-repeat;
+                                }
+                                .add{
+                                    background-position: -249px -48px;
+                                }
+                                .decrease{
+                                    background-position: -249px -64px;
+                                }
+                            }
+                            .florig{
+                                margin-left: 2px;
+                                .cur{
+                                    font-size: 12px;
+                                    border: 1px solid #f97e87;
+                                    color: #f97e87;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+}
+
+/* end baiji_main */ 
